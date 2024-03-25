@@ -1,8 +1,5 @@
 <?php
 class myProgram {
-	public $progName = 0;
-	public $outputSeq = array();
-	public $rangeSeq = array();
 	public $arithProgSumVal = 0;
 	public $arithProgSeriesVal = array();
 	
@@ -14,8 +11,7 @@ class myProgram {
 			$nuNum = (3 * $userNum) + 1;
 		}
 		
-		$this->progName = $nuNum;
-		return $this->progName;
+		return $nuNum;
 	}
 	
 	public function collSeq($userNum){
@@ -32,8 +28,7 @@ class myProgram {
 			$userNum = $this->fstFunction($userNum);
 		}
 		
-		$this->outputSeq = $part1Arr;
-		return $this->outputSeq;
+		return $part1Arr;
 	}
 	
 	public function calcRange($initNum, $endNum){
@@ -52,8 +47,7 @@ class myProgram {
 			
 			$resultArray[] = [ "number" => $e, "max_value" => $max, "iterations" => $arrayIter ];
 		}
-		$this->rangeSeq = $resultArray;
-		return $this->rangeSeq;
+		return $resultArray;
 	}
 	
 	public function arithProgSum($fstTerm, $commDiff, $numterms){

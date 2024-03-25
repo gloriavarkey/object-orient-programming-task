@@ -5,7 +5,7 @@ $newObj = new myProgram();
 <!DOCTYPE html>
 <html>
 <head>
-<title>3x + 1 Assignment</title>
+<title>3x + 1 Assignment by Gloria</title>
 
 <style>
 table th{
@@ -234,7 +234,7 @@ if(isset($_GET["num_submit"])){
 }
 ?>
 
-<h1><a href="./">Part 3</a></h1>
+<h1><a href="./">Part 3 for Arithmetic Progression</a></h1>
 <form action="./" method="GET">
 	<input type="number" name="fstTerm" placeholder="Add First Term" required />
 	<input type="number" name="commDiff" placeholder="Add Common Difference" required />
